@@ -12,12 +12,47 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- css -->
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body>
-    <h1>Hello Tea House</h1>
+  <body class="bg-[#FEF]">
+    <main class="ml-16 mr-16 manrope-font">
+      <!--Banner-->
+      <section class="flex justify-between items-center gap-5">
+        <div class="w-[80%] space-y-3 mt-16">
+          <h1 class="monrope-font text-7xl font-extrabold">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-xl text-[#777777]">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your <br />
+            Taste Buds.
+          </p>
+          <button
+            class="bg-linear-to-r from-[#FF8938] to-[#FF0000] text-white px-5 py-5 text-2xl rounded-2xl flex items-center justify-between"
+          >
+            Explore more
+            <img class="h-6 w-6 ml-2.5" src="./images/arrow.png" alt="arrow" />
+          </button>
+        </div>
+        <div class="mt-32 relative">
+          <div
+            class="bg-white rounded-lg w-[255px] h-[100px] absolute bottom-0 left-3 flex items-center pl-6"
+          >
+            <img class="w-12 h-12" src="./images/star.svg" alt="star" />
+            <div class="ml-4">
+              <h1 class="font-extrabold text-3xl">5.00</h1>
+              <p>Trust Polit Ratings</p>
+            </div>
+          </div>
+          <img class="m" src="./images/banner.png" alt="Banner" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
